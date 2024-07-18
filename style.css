@@ -1,0 +1,156 @@
+.more{
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    padding-right: 25px;
+    height: 160px;
+  
+    
+}
+nav ul li:hover .more{
+    display: block;
+}
+
+.img{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+nav ul{
+    height: 130px;
+    
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  .list li{
+    padding-top: 10px;
+  }
+.list{
+  display: none;
+}
+
+.sidebar li:hover .list li{
+  background-color: white;
+}
+.list li {
+  display: block;
+}
+
+.card ul li{
+  padding-top: 5px;
+  list-style: none;
+  text-decoration: none;
+}
+.card ul li a{
+  color: black;
+  text-decoration: none;
+}
+.box1 ul li{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.box1 ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .box{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: #2980B9;
+  text-align: center;
+  height: 70px;
+ color: white;
+}
+
+.box2{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+}
+.box3{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.box1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.box3 p span:hover{
+  color: yellow;
+}
+
+.pagination li a:hover{
+  color: #3498DB;
+}
+
+.number{
+  display: flex;
+  justify-content: space-around;
+}
+
+.n1{
+  padding-left: 330px;
+}
+
+.n1 button{
+  height: 50px;
+  width: 80px;
+  border: 0.5px solid ;
+  background-color: white;
+}
